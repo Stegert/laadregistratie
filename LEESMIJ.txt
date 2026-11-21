@@ -1,0 +1,20 @@
+LAADREGISTRATIE - EERSTE VERSIE
+
+1. Plaats alle bestanden uit deze map samen op een HTTPS-website (bijvoorbeeld GitHub Pages of Netlify).
+   Open index.html niet rechtstreeks als lokaal bestand; de offline serviceworker werkt alleen via HTTPS of localhost.
+2. Open de HTTPS-link op iPhone in Safari en kies Deel > Zet op beginscherm.
+   Op Samsung: open de link in Chrome en kies App installeren/Toevoegen aan startscherm.
+3. Open Instellingen en vul het afgesproken tarief per kWh in. Voeg eventueel de pdf-energienota toe.
+4. Registreer elke laadbeurt met kWh en foto.
+5. Kies in Overzicht de maand en druk op Maak PDF-declaratie. Gebruik de afdruk-/deeloptie van de telefoon om als PDF te bewaren.
+6. Maak regelmatig een back-up en bewaar die buiten de telefoon. Verwijder geen websitegegevens zonder back-up.
+
+LET OP
+- Geen online synchronisatie: gegevens staan uitsluitend in de browseropslag van het gebruikte toestel.
+- PDF-export gebruikt de afdrukfunctie van de browser; dit kan per toestel verschillen.
+- De energienota wordt apart opgeslagen en kan apart worden gedownload. Deze wordt niet in de maand-pdf samengevoegd.
+- Tarieven van eerdere laadbeurten worden niet aangepast wanneer je het tarief wijzigt.
+- Test de app eerst met een paar fictieve laadbeurten, een PDF en een back-up voordat je hem voor echte declaraties gebruikt.
+- Controleer het declarabele tarief met je werkgever.
+
+NIEUW: Kies in Overzicht zelf de begin- en einddatum van de declaratieperiode. Beide dagen worden meegenomen.
