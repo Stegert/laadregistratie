@@ -1,1 +1,17 @@
 :root{font-family:system-ui,-apple-system,sans-serif;color:#19372f;background:#f3f7f5}*{box-sizing:border-box}body{margin:0}header{background:#176b58;color:white;padding:22px 18px 18px}header h1{margin:0;font-size:1.65rem}header small{opacity:.85}nav{display:flex;background:white;position:sticky;top:0;box-shadow:0 2px 7px #0001;z-index:2}nav button{flex:1;border:0;border-bottom:3px solid transparent;background:white;padding:14px 3px;font-size:.88rem;color:#37594e}nav button.active{border-color:#176b58;color:#176b58;font-weight:700}main{max-width:650px;margin:auto;padding:18px}.tab{background:white;border-radius:14px;padding:20px;box-shadow:0 2px 12px #0000000d}.hidden{display:none!important}h2{margin-top:0}label{display:block;font-weight:600;margin:17px 0 6px}input{display:block;width:100%;font:inherit;padding:12px;border:1px solid #b7ccc3;border-radius:9px;margin-top:7px}button{cursor:pointer;font:inherit;border:1px solid #a8c7b9;border-radius:9px;background:#edf5f1;color:#185743;padding:11px 13px;margin:8px 5px 8px 0}.primary{display:block;width:100%;background:#176b58;color:white;border:0;font-weight:700;padding:15px;margin-top:20px}.estimate,.summary{background:#e8f4ee;border-radius:9px;padding:15px;font-weight:700}.hint{font-size:.88rem;color:#62756e;line-height:1.5}.entry{border-bottom:1px solid #dce9e2;padding:14px 0}.entry img,#preview img{max-width:110px;max-height:100px;object-fit:contain;border-radius:6px;margin-top:6px}.entry button{font-size:.8rem;padding:7px 10px}#toast{position:fixed;bottom:18px;left:5%;width:90%;text-align:center;background:#174e40;color:white;border-radius:10px;padding:12px;display:none;z-index:10}hr{border:0;border-top:1px solid #e2eae6;margin-top:24px}
+
+#pdfPreview{background:white;color:#222;min-height:100vh;padding:14px;box-sizing:border-box}
+.pdf-actions{position:sticky;top:0;background:#fff;padding:10px 0;border-bottom:1px solid #ddd;z-index:3}
+.pdf-actions button{margin:4px}
+#pdfContent{font:12px Arial,sans-serif;color:#222}
+#pdfContent h1{color:#176b58}
+#pdfContent table{width:100%;border-collapse:collapse}
+#pdfContent td,#pdfContent th{padding:8px;border-bottom:1px solid #ccc;text-align:left}
+#pdfContent figure{display:inline-block;width:44%;vertical-align:top;margin:15px 2%;break-inside:avoid}
+#pdfContent figure img{max-width:100%;max-height:270px;object-fit:contain}
+#pdfContent figcaption{font-size:11px}
+@media print{
+ body>header,body>nav,body>main,body>#toast,.pdf-actions{display:none!important}
+ #pdfPreview{display:block!important;padding:0;min-height:0}
+ #pdfContent figure{break-inside:avoid}
+}
